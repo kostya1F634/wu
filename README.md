@@ -11,6 +11,10 @@ make
 # you get binary "wu" in this directory
 ```
 Or just download binary from releases and move it for example to /usr/local/bin
+```bash
+chmod +x wu
+mv wu /usr/local/bin
+```
 ## Usage
 Idea of usage
 * First create alias in shell config smh like this
