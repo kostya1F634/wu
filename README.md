@@ -1,0 +1,1 @@
+# wu --- wallpaper updater
