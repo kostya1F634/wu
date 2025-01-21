@@ -28,7 +28,7 @@ cd wu
 make
 make copy
 # or if you want custom directory
-sudo mv wu /path/to/your/dir
+sudo mv -м wu /path/to/your/dir
 ```
 Or you can create link to /usr/local/bin
 ```bash
@@ -38,7 +38,7 @@ cd wu
 make
 make link
 # or if you want custom directory
-sudo ln -s "$(pwd)/wu" /path/to/your/dir
+sudo ln -sм "$(pwd)/wu" /path/to/your/dir
 ```
 Or download binary from releases and move it for example to /usr/local/bin or create link like above
 ```bash
