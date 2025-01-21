@@ -1,5 +1,5 @@
 # wu — wallpaper updater
-This script update wallpaper for desktop and loock screen at the same time it moves the wallpaper to a special folder for all wallpapers.
+This script update KDE plasma's desktop and loock screen wallpaper simultaneously and at the same time it moves the wallpaper to a special folder for all wallpapers.
 ## Installation 
 ### Requirements
 * make
