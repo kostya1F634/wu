@@ -4,13 +4,21 @@ This script update wallpaper for desktop and loock screen at the same time it mo
 ### Requirements
 * make
 * python
+If you want get only binary for binary
 ```bash
+cd /tmp
 git clone https://github.com/kostya1F634/wu.git
 cd wu
 make
-# you get binary "wu" in this directory
+mv wu  /usr/local/bin/wu
+```bash
+cd ~/
+git clone https://github.com/kostya1F634/wu.git
+cd wu
+make
+ln -s ~/wu/wu /usr/local/bin/wu
 ```
-Or just download binary from releases and move it for example to /usr/local/bin
+Or download binary from releases and move it for example to /usr/local/bin or create link like above
 ```bash
 chmod +x wu
 mv wu /usr/local/bin
@@ -23,10 +31,12 @@ alias wu="wu -d ~/path/to/wallpaper/dir -i"
 # or with default directory ~/Pictures/wallpapers
 alias wu="wu -i"
 ```
-Then when you use the browser, you like the image, you download it, use the script, it is automatically update wallpapers and moved to the folder with other wallpapers like this
+When you are browsing, and you see an image that you liked, you download it, use the script `wu image.jpg`, it automatically updates wallpapers and moves to the folder with other wallpapers
 ```bash
+# Download image
 cd ~/Dowloads
-wu example_of_image.jpg
+wu image.jpg
 # or
-wu "example image with spae.jpg"
+wu "example image with spaces.jpg"
 ```
+As a result, you get all the images in one place automatically
