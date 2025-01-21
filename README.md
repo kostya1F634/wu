@@ -20,13 +20,15 @@ As a result, you get all the images in one place automatically
 ### Requirements
 * make
 * python
-If you want get only binary for binary
+If you want to get only binary 
 ```bash
 cd /tmp
 git clone https://github.com/kostya1F634/wu.git
 cd wu
 make
 mv wu  /usr/local/bin/wu
+```
+Or you can create link
 ```bash
 cd ~/
 git clone https://github.com/kostya1F634/wu.git
