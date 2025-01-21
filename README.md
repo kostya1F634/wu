@@ -20,21 +20,25 @@ As a result, you get all the images in one place automatically
 ### Requirements
 * make
 * python
-If you want to get only binary 
+If you want to get only binary to /usr/local/bin
 ```bash
 cd /tmp
 git clone https://github.com/kostya1F634/wu.git
 cd wu
 make
-mv wu  /usr/local/bin/wu
+make copy
+# or if you want custom directory
+sudo mv wu /path/to/your/dir
 ```
-Or you can create link
+Or you can create link to /usr/local/bin
 ```bash
 cd ~/
 git clone https://github.com/kostya1F634/wu.git
 cd wu
 make
-ln -s ~/wu/wu /usr/local/bin/wu
+make link
+# or if you want custom directory
+sudo ln -s "$(pwd)/wu" /path/to/your/dir
 ```
 Or download binary from releases and move it for example to /usr/local/bin or create link like above
 ```bash
