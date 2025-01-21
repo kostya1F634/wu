@@ -1,4 +1,4 @@
-.PHONY: venv bin clean
+.PHONY: venv bin clean link copy rm-wu
 
 all: venv bin
 
@@ -19,4 +19,11 @@ clean:
 	@rm -rf dist
 	@rm -rf wu.spec
 
+link:
+	@sudo ln -sv "$(pwd)/wu" /usr/local/bin/wu
 
+copy:
+	@sudo cp -v wu /usr/local/bin 
+
+rm-wu:
+	@sudo rm -rfv /usr/local/bin/wu
