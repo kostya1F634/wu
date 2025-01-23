@@ -17,6 +17,12 @@ wu "example image with spaces.jpg"
 ```
 As a result, you update wallpapers and get all wallpapers in one place automatically
 ## Installation 
+Download binary from releases and move it for example to /usr/local/bin
+```bash
+chmod +x wu
+sudo mv -v wu /usr/local/bin
+```
+## Installation from source
 ### Requirements
 * make
 * python
@@ -39,9 +45,4 @@ make
 make link
 # or if you want custom directory
 sudo ln -sv "$(pwd)/wu" /path/to/your/dir
-```
-Or download binary from releases and move it for example to /usr/local/bin or create link like above
-```bash
-chmod +x wu
-mv wu /usr/local/bin
 ```
