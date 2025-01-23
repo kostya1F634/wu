@@ -15,7 +15,7 @@ wu image.jpg
 # or
 wu "example image with spaces.jpg"
 ```
-As a result, you get all the images in one place automatically
+As a result, you update wallpapers and get all wallpapers in one place automatically
 ## Installation 
 ### Requirements
 * make
