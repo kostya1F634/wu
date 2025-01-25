@@ -1,10 +1,13 @@
-# wu — wallpaper updater
-This script update KDE plasma's desktop and loock screen wallpaper simultaneously and at the same time it moves the wallpaper to a special folder for all wallpapers.
-## Idea of Usage
-* First create alias in shell config smh like this
+# 🏞️ wu — Wallpaper Updater script for inspiration
+## ✨ Features
+* 🔄 easy way to update desktop and lock screen wallpaper simultaneously
+* ⚙️ automatically moves updated wallpaper to directory with all wallpapers
+* 🚀 update wallpapers blazingly fast from terminal
+## 💡 Idea of Usage
+* First, create alias in shell config like this
 ```bash
 alias wu="wu -d ~/path/to/wallpaper/dir -i"
-# or with default directory ~/Pictures/wallpapers
+# with default directory ~/Pictures/wallpapers
 alias wu="wu -i"
 ```
 When you are browsing, and you see an image that you liked, you download it, use the script `wu image.jpg`, it automatically updates wallpapers and moves to the folder with other wallpapers
@@ -16,16 +19,17 @@ wu image.jpg
 wu "example image with spaces.jpg"
 ```
 As a result, you update wallpapers and get all wallpapers in one place automatically
-## Installation 
+## 📥 Installation 
 Download binary from releases and move it for example to /usr/local/bin
 ```bash
 chmod +x wu
 sudo mv -v wu /usr/local/bin
 ```
-## Installation from source
+## 🔧 Installation from source
 ### Requirements
 * make
 * python
+
 If you want to get only binary to /usr/local/bin
 ```bash
 cd /tmp
