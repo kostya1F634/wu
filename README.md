@@ -10,7 +10,7 @@ alias wu="wu -d ~/path/to/wallpaper/dir -i"
 # with default directory ~/Pictures/wallpapers
 alias wu="wu -i"
 ```
-* Second, when you are browsing, and you see an image that you liked, you download it, use the script `wu image.jpg`, it automatically updates wallpapers and moves to the folder with other wallpapers
+* Second, when you are browsing, and you see an image that you liked, you download it, use the script `wu image.jpg`, it automatically updates wallpapers and moves to the directory with other wallpapers
 ```bash
 # Browsing -> See Image -> Download Image -> Open Terminal
 cd ~/Dowloads
