@@ -38,7 +38,7 @@ make copy
 # or if you want custom directory
 sudo mv -v wu /path/to/your/dir
 ```
-🔗 Or you can create link to /usr/local/bin
+🔗 Or you can create link to /usr/local/bin (not delete cloned repository)
 ```bash
 cd ~/
 git clone https://github.com/kostya1F634/wu.git
