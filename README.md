@@ -15,8 +15,6 @@ alias wu="wu -i"
 # Browsing -> See Image -> Download Image -> Open Terminal
 cd ~/Dowloads
 wu image.jpg
-# or
-wu "example image with spaces.jpg"
 ```
 * As a result, you update wallpapers and get all wallpapers in one place automatically
 ## 📥 Installation 
