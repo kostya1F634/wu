@@ -12,7 +12,7 @@ alias wu="wu -i"
 ```
 * Second, when you are browsing, and you see an image that you liked, you download it, use the script `wu image.jpg`, it automatically updates wallpapers and moves to the folder with other wallpapers
 ```bash
-# Browsing -> See image -> Download image
+# Browsing -> See Image -> Download Image -> Open Terminal
 cd ~/Dowloads
 wu image.jpg
 # or
