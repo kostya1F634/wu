@@ -26,11 +26,11 @@ chmod +x wu
 sudo mv -v wu /usr/local/bin
 ```
 ## 🔧 Installation from source
-### Requirements
-* make
-* python
+### 📋 Requirements
+* 🛠️ make
+* 🐍 python
 
-If you want to get only binary to /usr/local/bin
+🔢 If you want to get only binary to /usr/local/bin
 ```bash
 cd /tmp
 git clone https://github.com/kostya1F634/wu.git
@@ -40,7 +40,7 @@ make copy
 # or if you want custom directory
 sudo mv -v wu /path/to/your/dir
 ```
-Or you can create link to /usr/local/bin
+🔗 Or you can create link to /usr/local/bin
 ```bash
 cd ~/
 git clone https://github.com/kostya1F634/wu.git
