@@ -14,7 +14,7 @@ alias wu="wu -i"
 ```bash
 # Browsing -> See Image -> Download Image -> Open Terminal
 cd ~/Dowloads
-wu image.jpg
+wu image.ext
 ```
 * As a result, you update wallpapers and get all wallpapers in one place automatically
 ## 📥 Installation 
