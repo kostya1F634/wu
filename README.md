@@ -4,7 +4,7 @@
 * ⚙️ automatically moves updated wallpaper to directory with all wallpapers
 * 🚀 update wallpapers blazingly fast from terminal
 ## 💡 Idea of Usage
-You can quickly change the wallpaper to the ones you like.
+### 🌐 Browsing -> 🖼️ See Image -> ⬇️ Download Image -> ⌨️ Open Terminal -> 🔄 Use `wu`
 * First, create alias in shell config like this
 ```bash
 alias wu="wu -d ~/path/to/wallpaper/dir -i"
