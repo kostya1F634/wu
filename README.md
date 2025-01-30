@@ -5,6 +5,7 @@
 * 🚀 update wallpapers blazingly fast from terminal
 ## 💡 Idea of Usage
 ### 🌐 Browsing -> 🖼️ See Image -> ⬇️ Download Image -> ⌨️ Open Terminal -> 🔄 wu
+![Preview](https://github.com/user-attachments/assets/8c8738f3-7f5f-43fe-a83a-06407aac3aa0)
 * First, create alias in shell config like this
 ```bash
 alias wu="wu -d ~/path/to/wallpaper/dir -i"
