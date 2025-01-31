@@ -7,15 +7,6 @@ class ValidPath:
     def __init__(self, path):
         self.path = Path(path).expanduser().absolute()
 
-    def exists(self):
-        return self.path.exists()
-
-    def create(self, is_file=True):
-        if is_file:
-            self.path.touch(exist_ok=True)
-        else:
-            self.path.mkdir(parents=True, exist_ok=True)
-
     def move(self, new_dir_path):
         moved_dir = Path(new_dir_path).expanduser().absolute()
         if not moved_dir.exists():
