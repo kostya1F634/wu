@@ -19,6 +19,7 @@ class Args:
             help="Not move the image flag (optional). Default is False.",
             default=False,
         )
+        parser.add_argument("--version", "-v", action="version", version="0.2.1")
         self.args = parser.parse_args()
         if self.args.image is None:
             raise ValueError("The '--image' argument is required and must be provided.")
