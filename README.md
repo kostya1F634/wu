@@ -27,7 +27,7 @@ Download binary from latest release and move it for example to /usr/local/bin
 chmod +x wu
 sudo mv -v wu /usr/local/bin
 ```
-## 🔧 Installation from source
+## 🔧 Installation from Source
 ### 📋 Requirements
 * 🛠️ make
 * 🐍 python
