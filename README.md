@@ -11,6 +11,8 @@
 alias wu="wu -d ~/path/to/wallpaper/dir -i"
 # with default directory ~/Pictures/wallpapers
 alias wu="wu -i"
+# or without wallpaper moving
+alias wu="wu -nm true -i"
 ```
 * Second, when you are browsing, and you see an image that you liked, you download it, use the script `wu image.ext`, it automatically updates wallpapers and moves to the directory with other wallpapers
 ```bash
