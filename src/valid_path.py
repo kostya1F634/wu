@@ -7,6 +7,11 @@ class ValidPath:
     def __init__(self, path):
         self.path = Path(path).expanduser().absolute()
 
+    def existence(self):
+        if not self.path.exists():
+            raise FileNotFoundError(f"File {self.path} does not exist.")
+        return self
+
     def move(self, new_dir_path):
         moved_dir = Path(new_dir_path).expanduser().absolute()
         if not moved_dir.exists():

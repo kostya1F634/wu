@@ -11,13 +11,16 @@ class Wu:
     def run(self):
         try:
             self.args.parse()
+            if not self.args.move():
+                moved_image = ValidPath(self.args.image()).move(self.args.directory())
+            else:
+                moved_image = ValidPath(self.args.image()).existence()
+            Wallpaper(moved_image).update_on_desktop().update_on_lockscreen()
         except ValueError as e:
-            print("Use -h or --help")
-            return
-        moved_image = ValidPath(self.args.image()).move(self.args.directory())
-        Wallpaper(moved_image).update_on_desktop().update_on_lockscreen()
+            print(e, "Use -h or --help")
+        except FileNotFoundError as e:
+            print(e)
 
 
 if __name__ == "__main__":
-    wu = Wu(Args())
-    wu.run()
+    Wu(Args()).run()
