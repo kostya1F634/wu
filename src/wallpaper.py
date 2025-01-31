@@ -33,8 +33,6 @@ class Wallpaper:
 
     def update_on_lockscreen(self):
         screen_lock_config = ValidPath("~/.config/kscreenlockerrc")
-        if not screen_lock_config.exists():
-            screen_lock_config.create()
         new_config = f"""
 [Greeter][Wallpaper][org.kde.image][General]
 Image=file://{self.image}
