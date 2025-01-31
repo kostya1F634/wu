@@ -3,7 +3,7 @@ import argparse
 
 class Args:
     def parse(self):
-        parser = argparse.ArgumentParser(description="KDE Wallpaper updater")
+        parser = argparse.ArgumentParser(description="KDE Wallpaper Updater")
         parser.add_argument("--image", "-i", help="Path to image", default=None)
         parser.add_argument(
             "--directory",
