@@ -1,3 +1,4 @@
+I have developed a more convenient analog [wugo](https://github.com/kostya1F634/wugo) on Go.
 # 🏞️ wu — Wallpaper Updater script for inspiration
 ## ✨ Features
 * 🔄 easy way to update desktop and lock screen wallpaper simultaneously
